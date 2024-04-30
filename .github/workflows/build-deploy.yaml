@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - ah4c-patch-1
+permissions:
+  contents: write
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
