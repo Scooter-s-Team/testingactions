@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - ah4c-patch-1
+      - main
 permissions:
   contents: write
 jobs:
